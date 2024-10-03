@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Ysmael</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">My Project</a></li>
+          <li><a href="assets/Ysmael John A Resume.pdf" download>Download Resume</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="section" id="home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Ysmael</span>, a Web Developer
+          </h1>
+          <p class="description">
+            I create modern, responsive websites and web applications that help businesses grow. Whether you're looking for a personal portfolio, a business website, or a complex web application, I bring ideas to life with clean code and stunning design.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me" onclick="location.href='assets/Ysmael John A Resume.pdf'" download>Hire Me</button>
+            <button class="portfolio" onclick="location.href='#portfolio'">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="profile picture of Ysmael" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="section__container_about">
+        <div class="content">
+          <p class="subtitle">ABOUT ME</p>
+          <h1 class="title">
+            I'm <span>Ysmael</span>, a Web Developer with Passion for Innovation
+          </h1>
+          <p class="description">
+            With over 1 year of experience, I specialize in creating responsive, user-friendly websites and applications that blend beautiful design with seamless functionality. My background includes a deep understanding of both front-end and back-end technologies, including HTML, CSS, JavaScript, C#, and more.
+          </p>
+          <p class="description">
+            I’m committed to delivering code that is clean, efficient, and scalable. Whether I’m building websites from scratch or optimizing existing projects, I work closely with clients to ensure their business needs are met while pushing the boundaries of design and development.
+          </p>
+          <p class="description">
+            Outside of web development, I am a continuous learner, always looking to keep up with the latest technologies and best practices. My personal projects and contributions to open-source communities reflect my passion for innovation and growth.
+          </p>
+          <div class="skills">
+            <h2>Core Skills</h2>
+            <ul>
+              <li>Front-end: HTML, CSS, JavaScript</li>
+              <li>Back-end: C#, Microsoft SQL</li>
+              <li>Responsive Design & UX/UI Principles</li>
+              <li>API Development & Integration</li>
+              <li>Version Control: Git, GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="section__container_portfolio">
+        <div class="content">
+          <p class="subtitle">PORTFOLIO</p>
+          <h1 class="title">My Project</h1>
+          <div class="projects">
+            <!-- Project 1 -->
+            <div class="project">
+              <h2 class="project-title">Niis Restaurant Menu</h2>
+              <div class="gallery">
+                <div class="image2">
+                    <a href="#lightbox1" class="image-link">
+                        <img src="assets/nii1.jpg" alt="Niis Restaurant Menu" class="project-image" />
+                        <span class="overlay">View Project Screenshot</span>
+                    </a>
+                  </div>
+            
+                <!-- Add more images as needed -->
+                </div>
+                  
+                  <!-- Lightboxes -->
+                  <div id="lightbox1" class="lightbox">
+                    <img src="assets/nii1.jpg" alt="Niis Restaurant Menu Screenshot 1" />
+                    <a href="#portfolio" class="close">&times;</a>
+                    <a href="#lightbox2" class="next">&gt;</a>
+                  </div>
+        
+                  <div id="lightbox2" class="lightbox">
+                    <img src="assets/nii2.jpg" alt="Niis Restaurant Menu Screenshot 2" />
+                    <a href="#portfolio" class="close">&times;</a>
+                    <a href="#lightbox3" class="next">&gt;</a>
+                  </div>
+        
+                  <div id="lightbox3" class="lightbox">
+                    <img src="assets/nii3.jpg" alt="Niis Restaurant Menu Screenshot 3" />
+                    <a href="#portfolio" class="close">&times;</a>
+                    <a href="#lightbox4" class="next">&gt;</a>
+                  </div>
+        
+                  <div id="lightbox4" class="lightbox">
+                    <img src="assets/nii4.jpg" alt="Niis Restaurant Menu Screenshot 4" />
+                    <a href="#portfolio" class="close">&times;</a>
+                    <a href="#lightbox5" class="next">&gt;</a>
+                  </div>
+        
+                  <div id="lightbox5" class="lightbox">
+                    <img src="assets/nii5.jpg" alt="Niis Restaurant Menu Screenshot 5" />
+                    <a href="#portfolio" class="close">&times;</a>
+                    <a href="#lightbox6" class="next">&gt;</a>
+                  </div>
+        
+                  <div id="lightbox6" class="lightbox">
+                    <img src="assets/nii6.jpg" alt="Niis Restaurant Menu Screenshot 6" />
+                    <a href="#portfolio" class="close">&times;</a>
+                    <a href="#lightbox7" class="next">&gt;</a>
+                  </div>
+        
+                  <div id="lightbox7" class="lightbox">
+                    <img src="assets/nii7.jpg" alt="Niis Restaurant Menu Screenshot 7" />
+                    <a href="#portfolio" class="close">&times;</a>
+                    <a href="#lightbox1" class="next">&gt;</a>
+                  </div>
+    
+            
+            
+            
+              <p class="project-description">
+                  Niis Restaurant Menu is an Android application built using .NET MAUI and C#. 
+                  This app allows customers to browse the menu and place orders seamlessly. 
+                  One of its standout features is real-time updates to the admin dashboard, 
+                  which provides instant visibility into customer orders as they are placed. 
+                  The user interface is designed to be simple and intuitive, requiring no login 
+                  from customers, making it easy for anyone to use.
+              </p>
+              <p class="project-tech">Technologies Used: .NET MAUI, C#, Android</p>
+
+              <a href="https://github.com/MrSmashPotato/NiisMenu" class="project-link">View on GitHub</a>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="contact">
+      <div class="section__container_contact">
+        <div class="content">
+          <p class="subtitle">CONTACT ME</p>
+          <h1 class="title">I'd Love to Hear From You</h1>
+          <p class="description">
+            If you have any questions, inquiries, or just want to connect, feel free to reach out to me via the contact information below.
+          </p>
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:jajallaysmaeljohn@gmail.com">jajallaysmaeljohn@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+639398758873">+639398758873</a></p>
+            <p><strong>Location:</strong> Baybay City, Leyte, Philippines</p>
+          </div>
+          <div class="social-media">
+            <h2>Follow Me</h2>
+            <p>Connect with me on social media:</p>
+            <ul>
+              <li><a href="https://github.com/MrSmashPotato" target="_blank">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/ysmael-john-a-jajalla" target="_blank">LinkedIn</a></li>
+              <!-- Add more social media links as needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+  </body>
+</html>
